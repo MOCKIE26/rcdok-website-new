@@ -13,14 +13,70 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Home',
+					autogenerate: { directory: 'reference' },
+				},
+				{
+					label: 'Community',
+					autogenerate: { directory: 'reference' },
+				},
+				{
+					label: 'Faith',
+					autogenerate: { directory: 'reference' },
+				},
+				{
+					label: 'Parishes',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Vicariate of Our Lady of Grace', slug: 'guides/example' },
+						{ label: 'Vicariate of Sacred Heart of Jesus', slug: 'guides/example' },
+						{ label: 'Vicariate of San Bartolome', slug: 'guides/example' },
+						{ label: 'Vicariate of San Jose', slug: 'guides/example' },
+						{ label: 'Vicariate of San Roque', slug: 'guides/example' },
 					],
 				},
 				{
-					label: 'Reference',
+					label: 'Member Schools',
+					autogenerate: { directory: 'reference' },
+				},
+				{
+					label: 'Clergy',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Diocesan', slug: 'guides/example' },
+						{ label: 'Religious', slug: 'guides/example' },
+					],
+				},
+				{
+					label: 'Ministries',
+					autogenerate: { directory: 'reference' },
+				},
+				{
+					label: 'Missions',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Mission Stations', slug: 'guides/example' },
+						{ label: 'Mission Centers', slug: 'guides/example' },
+						{ label: 'Mission Programs', slug: 'guides/example' },
+						{ label: 'Mission Headquarters', slug: 'guides/example' },
+					],
+				},
+				{
+					label: 'Cemeteries, Columbaries & Ossuaries',
+					autogenerate: { directory: 'reference' },
+				},
+				{
+					label: 'Events',
+					autogenerate: { directory: 'reference' },
+				},
+				{
+					label: 'News',
+					autogenerate: { directory: 'reference' },
+				},
+				{
+					label: 'About Us',
+					autogenerate: { directory: 'reference' },
+				},{
+					label: 'Contact',
 					autogenerate: { directory: 'reference' },
 				},
 			],
