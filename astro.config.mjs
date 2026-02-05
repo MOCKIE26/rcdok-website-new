@@ -63,8 +63,8 @@ export default defineConfig({
 				{
 					label: 'Cemeteries, Columbaries & Ossuaries',
 					items: [
-						{ label: 'Cemeteries', slug: 'cemeteries columbaries & ossuaries/cemeteries' },
-						{ label: 'Columbaries', slug: 'cemeteries columbaries & ossuaries/columbaries' },
+						{ label: 'Cemeteries', slug: 'cemeteries-columbaries-ossuaries/cemeteries' },
+						{ label: 'Columbaries', slug: 'cemeteries-columbaries-ossuaries/columbaries' },
 					],
 				},
 				{
