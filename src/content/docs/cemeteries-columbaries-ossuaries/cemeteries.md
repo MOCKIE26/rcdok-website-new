@@ -6,20 +6,38 @@ description: Catholic cemeteries under the diocese.
 ## La Loma Catholic Cemetery (LLCC)
 
 ---
+
+<div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; margin-bottom: 2rem;">
+
+  <div style="flex: 1; min-width: 300px;">
+    <a href="https://www.google.com/maps/search/?api=1&query=La+Loma+Catholic+Cemetery+Caloocan" target="_blank" rel="noopener noreferrer">
+      <img 
+        src="https://dioceseofkalookan.ph/wp-content/uploads/2020/12/dscf3275.jpg" 
+        alt="La Loma Catholic Cemetery" 
+        style="border-radius: 8px; width: 100%; height: auto; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
+      />
+    </a>
+    <p style="font-size: 0.85rem; color: #666; margin-top: 0.5rem; text-align: center;">
+      📍 Click image to open in Google Maps
+    </p>
+  </div>
+
+  <div style="flex: 1.5; min-width: 300px;">
+
 * **Address:** Across C-3 Road, 5th St., Caloocan, 1400 Metro Manila  
 * **Telephone:** (02) 8277 3261  
-* **Email:** lalomacatholiccemetery@gmail.com  
+* **Email:** [lalomacatholiccemetery@gmail.com](mailto:lalomacatholiccemetery@gmail.com)  
 
+**Administration**
 * **Head Administrator:** His Eminence Pablo Virgilio S. Cardinal David, D.D.  
-* **Council for La Loma Catholic Cemetery:**  
-  Rev. Fr. Jeronimo Ma. J. Cruz  
-  Rev. Fr. Gaudioso A. Sustento  
-  Rev. Fr. Rufino P. Yabut  
-  Rev. Fr. Romeo C. Tuazon  
-
+* **Council:** Rev. Fr. Jeronimo Ma. J. Cruz, Rev. Fr. Gaudioso A. Sustento,  
+  Rev. Fr. Rufino P. Yabut, Rev. Fr. Romeo C. Tuazon  
 * **Deputy Administrator:** Ms. Edith I. Dabuit  
 * **Chaplain:** Rev. Fr. Lauro M. Toledo  
-* **Records Department Head:** Ms. Susan Elumba  
+* **Records Dept. Head:** Ms. Susan Elumba  
+
+  </div>
+</div>
 
 ---
 
