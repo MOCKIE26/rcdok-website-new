@@ -5,6 +5,7 @@ icon: fas fa-info-circle
 nav: true
 order: 11
 description: Learn more about the diocese and its mission.
+slug: about-us
 ---
 
 ## The Roman Catholic Diocese of Kalookan
