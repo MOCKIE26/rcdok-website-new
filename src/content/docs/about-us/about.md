@@ -27,18 +27,18 @@ The diocese serves the southern part of **Caloocan City**, and the cities of **M
     <img src="https://dioceseofkalookan.ph/wp-content/uploads/2019/04/Coat-of-Arms-of-Diocese-of-Kalookan-png_small_favicon.png" alt="Diocese of Kalookan Coat of Arms" style="width: 200px; height: auto;">
   </div>
   <div style="flex: 2; min-width: 300px;">
-    The symbols represent the three jurisdictions that comprise the Diocese:
+    <div style="border: 1px solid #ccc; padding: 15px; border-radius: 8px; background-color: #f9f9f9;">
+The Monument (Center): Represents Caloocan City.  
+The Fishes (Right): Represent the City of Malabon.  
+The Banca (Left): Represents the Municipality of Navotas.  
+The Cross & Dove: Cross signifies Jesus Christ, Dove represents the Holy Spirit.  
 
-    * **The Monument (Center):** Represents Caloocan City.
-    * **The Fishes (Right):** Represent the City of Malabon.
-    * **The Banca (Left):** Represents the Municipality of Navotas.
-    * **The Cross & Dove:** Cross signifies Jesus Christ, Dove represents the Holy Spirit.
+Symbolism of Colors and Motto:  
+Red (Lower Half): Valor of martyrdom, love of the Diocese.  
+Blue (Upper Half): Marian character of the diocesan ministry.  
 
-    **Symbolism of Colors and Motto**
-    * **Red (Lower Half):** Valor of martyrdom, love of the Diocese.
-    * **Blue (Upper Half):** Marian character of the diocesan ministry.
-
-    > **Motto:** “DUC IN ALTUM” (Lk. 5:4) – “Put out into the deep”.
+Motto: “DUC IN ALTUM” (Lk. 5:4) – “Put out into the deep”.
+    </div>
   </div>
 </div>
 
@@ -51,17 +51,19 @@ The diocese serves the southern part of **Caloocan City**, and the cities of **M
     <img src="https://dioceseofkalookan.ph/wp-content/uploads/2020/12/CoA-Cardinal-Ambo-e1739765015611.png" alt="Cardinal David Coat of Arms" style="width: 200px; height: auto;">
   </div>
   <div style="flex: 2; min-width: 300px;">
-    **I. Diocesan Symbolism (Left)**  
-    Boat, net, and shoal of fish (Malabon/Navotas) and the Bonifacio Monument (Caloocan).
+    <div style="border: 1px solid #ccc; padding: 15px; border-radius: 8px; background-color: #f9f9f9;">
+I. Diocesan Symbolism (Left):  
+Boat, net, and shoal of fish (Malabon/Navotas) and the Bonifacio Monument (Caloocan).
 
-    **II. Personal Symbolism (Right)**  
-    * **IHS & M:** Jesuit formation and Mary Help of Christians Seminary  
-    * **Lily & Saw:** St. Joseph and carpentry heritage of Betis, Pampanga  
-    * **Alaya:** “East” in Baybayin, representing his home province  
-    * **Bible & Dove:** Word of God and mission in communications  
-    * **Bamboo Chi-Rho:** Humble pastorship of Jesus Christ
+II. Personal Symbolism (Right):  
+IHS & M: Jesuit formation and Mary Help of Christians Seminary  
+Lily & Saw: St. Joseph and carpentry heritage of Betis, Pampanga  
+Alaya: “East” in Baybayin, representing his home province  
+Bible & Dove: Word of God and mission in communications  
+Bamboo Chi-Rho: Humble pastorship of Jesus Christ  
 
-    > **Motto:** “KENOSIS” – Total self-emptying and humility (Philippians 2:6-11)
+Motto: “KENOSIS” – Total self-emptying and humility (Philippians 2:6-11)
+    </div>
   </div>
 </div>
 
