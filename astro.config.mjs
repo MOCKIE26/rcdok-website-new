@@ -12,7 +12,7 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Home',
-					autogenerate: { directory: 'home' },
+					link: "/",
 				},
 				{
 					label: 'Community',
