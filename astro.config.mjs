@@ -40,8 +40,8 @@ export default defineConfig({
 					label: 'Clergy',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Diocesan', slug: 'guides/example' },
-						{ label: 'Religious', slug: 'guides/example' },
+						{ label: 'Diocesan', slug: 'clergy/diocesan' },
+						{ label: 'Religious', slug: 'clergy/religious' },
 					],
 				},
 				{
