@@ -77,3 +77,41 @@ description: Catholic member schools under the diocese.
 </div>
 
 ---
+
+## Notre Dame of Greater Manila (NDGM)
+
+---
+
+<div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; margin-bottom: 2rem;">
+
+<div style="flex: 1; min-width: 300px; display: flex; flex-direction: column; gap: 1.5rem;">
+
+<div style="text-align: center;">
+<a href="https://ndgm.edu.ph/" target="_blank" rel="noopener noreferrer">
+<img src="https://www.crownpvc.com.ph/image/projects/Notre_Dame_of_Greater_Manila_Caloocan.jpg" alt="NDGM Campus" style="border-radius: 8px; width: 100%; height: auto; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+</a>
+<p style="font-size: 0.8rem; margin-top: 0.5rem; color: #666;">🌐 Click image to visit Website</p>
+</div>
+
+<div style="text-align: center;">
+<a href="https://ndgm.edu.ph/" target="_blank" rel="noopener noreferrer">
+<img src="https://dioceseofkalookan.ph/wp-content/uploads/2020/12/NDGM-150x150.jpg" alt="NDGM Logo" style="width: 150px; height: auto; margin: 0 auto;" />
+</a>
+<p style="font-size: 0.8rem; margin-top: 0.5rem; color: #666;">🏫 Click logo to visit Website</p>
+</div>
+
+</div>
+
+<div style="flex: 1.5; min-width: 300px;">
+
+* **Address:** 161 9th St, East Grace Park, Caloocan City
+* **Telephone:** 8366-6330 to 32 & 34
+* **Director:** Rev. Fr. Howard P. Tatel, OMI
+* **Email:** [ndgm_63@yahoo.com](mailto:ndgm_63@yahoo.com)
+* **Website:** [https://ndgm.edu.ph/](https://ndgm.edu.ph/)
+* **Location Map:** [View on Google Maps](https://www.google.com/maps/search/?api=1&query=1)
+
+</div>
+</div>
+
+---
