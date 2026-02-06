@@ -52,8 +52,8 @@ export default defineConfig({
 					label: 'Missions',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Mission Stations', slug: 'guides/example' },
-						{ label: 'Mission Centers', slug: 'guides/example' },
+						{ label: 'Mission Stations', slug: 'missions/stations' },
+						{ label: 'Mission Centers', slug: 'missions/centers' },
 						{ label: 'Mission Programs', slug: 'guides/example' },
 						{ label: 'Mission Headquarters', slug: 'guides/example' },
 					],
