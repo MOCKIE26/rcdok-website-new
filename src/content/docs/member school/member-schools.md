@@ -114,4 +114,108 @@ description: Catholic member schools under the diocese.
 </div>
 </div>
 
----
+## San Jose Academy (SnJA)
+
+<div style="display: flex; gap: 2rem; align-items: flex-start; margin-bottom: 3rem;">
+
+  <!-- LEFT: LOGO -->
+  <div style="min-width: 200px; text-align: center;">
+    <a href="https://www.facebook.com/sanjoseacademyofficial" target="_blank" rel="noopener noreferrer">
+      <img
+        src="https://dioceseofkalookan.ph/wp-content/uploads/2020/12/SnJa-150x150.jpg"
+        alt="San Jose Academy Logo"
+        style="width: 160px; height: auto;"
+      />
+    </a>
+    <p style="font-size: 0.85rem; opacity: 0.8;">🔵 Click logo for Facebook</p>
+  </div>
+
+  <!-- RIGHT: DETAILS -->
+  <div>
+    <ul>
+      <li><strong>Address:</strong> M. Naval Street, San Jose, Navotas City</li>
+      <li><strong>Telephone:</strong> 8282-90-39 loc. 111</li>
+      <li><strong>Director:</strong> Rev. Fr. Jeronimo Ma. J. Cruz</li>
+      <li><strong>Principal:</strong> Mr. Rafael Patrick M. Pecjo</li>
+      <li><strong>School Chaplain:</strong> Rev. Fr. Rufino P. Yabut</li>
+      <li><strong>Email:</strong>
+        <a href="mailto:sanjoseacademy@yahoo.com">sanjoseacademy@yahoo.com</a>
+      </li>
+    </ul>
+  </div>
+
+</div>
+
+## De La Salle Araneta University (DLSAU)
+
+<div style="display: flex; gap: 2rem; align-items: flex-start; margin-bottom: 3rem;">
+
+  <!-- LEFT: LOGO -->
+  <div style="min-width: 200px; text-align: center;">
+    <a href="https://www.facebook.com/DLSAranetaU" target="_blank" rel="noopener noreferrer">
+      <img
+        src="https://dioceseofkalookan.ph/wp-content/uploads/2020/12/11392975_696070460497898_984113427612524672_n-150x150.jpg"
+        alt="DLSAU Logo"
+        style="width: 160px; height: auto;"
+      />
+    </a>
+    <p style="font-size: 0.85rem; opacity: 0.8;">🔵 Click logo for Facebook</p>
+  </div>
+
+  <!-- RIGHT: DETAILS -->
+  <div>
+    <ul>
+      <li><strong>Address:</strong> Victoneta Avenue, Potrero, Malabon City</li>
+      <li><strong>Telephone:</strong> 8330-91-28</li>
+      <li><strong>President:</strong> Br. Bernard S. Oca, FSC</li>
+      <li><strong>Chaplain:</strong> Rev. Fr. Luis Zapata, IVE</li>
+      <li><strong>Email:</strong>
+        <a href="mailto:info@dlsau.edu.ph">info@dlsau.edu.ph</a>
+      </li>
+      <li><strong>Website:</strong>
+        <a href="https://dlsau.edu.ph/" target="_blank">https://dlsau.edu.ph/</a>
+      </li>
+      <li><strong>Location Map:</strong>
+        <a href="https://maps.google.com/?q=Victoneta+Avenue,+Potrero,+Malabon+City" target="_blank">
+          View on Google Maps
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</div>
+
+## St. Gabriel Academy (SGA)
+
+<div style="display: flex; gap: 2rem; align-items: flex-start; margin-bottom: 3rem;">
+
+  <!-- LEFT: LOGO -->
+  <div style="min-width: 200px; text-align: center;">
+    <a href="https://www.facebook.com/SGACaloocan" target="_blank" rel="noopener noreferrer">
+      <img
+        src="https://dioceseofkalookan.ph/wp-content/uploads/2020/12/68368484_1186889431519827_7089482303943999488_n-150x150.png"
+        alt="St. Gabriel Academy Logo"
+        style="width: 160px; height: auto;"
+      />
+    </a>
+    <p style="font-size: 0.85rem; opacity: 0.8;">🔵 Click logo for Facebook</p>
+  </div>
+
+  <!-- RIGHT: DETAILS -->
+  <div>
+    <ul>
+      <li><strong>Address:</strong> Araneta Ave. corner Kaimito Road, Caloocan City</li>
+      <li><strong>Telephone:</strong> 0998-853-6850</li>
+      <li><strong>Director:</strong> Rev. Fr. Kennedy A. Neral</li>
+      <li><strong>School Chaplain:</strong> Rev. Fr. Leandro Magnai</li>
+      <li><strong>Email:</strong>
+        <a href="mailto:sgacal@yahoo.com">sgacal@yahoo.com</a>
+      </li>
+      <li><strong>Website:</strong>
+        <a href="https://sgacal.edu.ph/" target="_blank">https://sgacal.edu.ph/</a>
+      </li>
+    </ul>
+  </div>
+
+</div>
+
