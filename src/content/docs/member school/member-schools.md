@@ -228,13 +228,6 @@ description: Catholic member schools under the diocese.
 <div style="flex: 1; min-width: 300px; display: flex; flex-direction: column; gap: 1.5rem;">
 
 <div style="text-align: center;">
-<a href="https://maps.google.com/maps?q=St.%20James%20Academy%2C%20Rizal%20Ave%20Ext%2C%20Malabon%2C%20Metro%20Manila" target="_blank" rel="noopener noreferrer">
-<img src="https://dioceseofkalookan.ph/wp-content/uploads/2020/12/93640540_100183808340387_1533253546001039360_n-150x150.jpg" alt="SJA Campus" style="border-radius: 8px; width: 100%; height: auto; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
-</a>
-<p style="font-size: 0.8rem; margin-top: 0.5rem; color: #666;">🌐 Click image to view location on Google Maps</p>
-</div>
-
-<div style="text-align: center;">
 <a href="https://www.facebook.com/sjaregistrar" target="_blank" rel="noopener noreferrer">
 <img src="https://dioceseofkalookan.ph/wp-content/uploads/2020/12/93640540_100183808340387_1533253546001039360_n-150x150.jpg" alt="SJA Logo" style="width: 150px; height: auto; margin: 0 auto;" />
 </a>
@@ -255,6 +248,7 @@ description: Catholic member schools under the diocese.
 
 </div>
 </div>
+
 
 ---
 
