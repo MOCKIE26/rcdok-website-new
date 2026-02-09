@@ -219,3 +219,79 @@ description: Catholic member schools under the diocese.
 
 </div>
 
+## St. James Academy (SJA)
+
+---
+
+<div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; margin-bottom: 2rem;">
+
+<div style="flex: 1; min-width: 300px; display: flex; flex-direction: column; gap: 1.5rem;">
+
+<div style="text-align: center;">
+<a href="https://maps.google.com/maps?q=St.%20James%20Academy%2C%20Rizal%20Ave%20Ext%2C%20Malabon%2C%20Metro%20Manila" target="_blank" rel="noopener noreferrer">
+<img src="https://dioceseofkalookan.ph/wp-content/uploads/2020/12/93640540_100183808340387_1533253546001039360_n-150x150.jpg" alt="SJA Campus" style="border-radius: 8px; width: 100%; height: auto; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+</a>
+<p style="font-size: 0.8rem; margin-top: 0.5rem; color: #666;">🌐 Click image to view location on Google Maps</p>
+</div>
+
+<div style="text-align: center;">
+<a href="https://www.facebook.com/sjaregistrar" target="_blank" rel="noopener noreferrer">
+<img src="https://dioceseofkalookan.ph/wp-content/uploads/2020/12/93640540_100183808340387_1533253546001039360_n-150x150.jpg" alt="SJA Logo" style="width: 150px; height: auto; margin: 0 auto;" />
+</a>
+<p style="font-size: 0.8rem; margin-top: 0.5rem; color: #666;">🔵 Click logo for Facebook</p>
+</div>
+
+</div>
+
+<div style="flex: 1.5; min-width: 300px;">
+
+* **Address:** Rizal Ave Ext, Malabon City  
+* **Telephone:** 8283-3696 to 98 / 8281-5990 Loc. 106  
+* **Directress:** Sr. Nenita M. Handugan, OP  
+* **School Chaplain:** Rev. Fr. Elpidio Erlano, Jr.  
+* **Email:** [Insert Email Here](mailto:)  
+* **Facebook Page:** [https://www.facebook.com/sjaregistrar](https://www.facebook.com/sjaregistrar)  
+* **Location Map:** [View on Google Maps](https://maps.google.com/maps?q=St.%20James%20Academy%2C%20Rizal%20Ave%20Ext%2C%20Malabon%2C%20Metro%20Manila)
+
+</div>
+</div>
+
+---
+
+## St. Mary’s Academy of Caloocan City (SMACC)
+
+---
+
+<div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; margin-bottom: 2rem;">
+
+<div style="flex: 1; min-width: 300px; display: flex; flex-direction: column; gap: 1.5rem;">
+
+<div style="text-align: center;">
+<a href="https://www.smacc.edu.ph/" target="_blank" rel="noopener noreferrer">
+<img src="https://dioceseofkalookan.ph/wp-content/uploads/2020/12/87420405_2637533719861901_3341102811004796928_n-150x150.png" alt="SMACC Campus" style="border-radius: 8px; width: 100%; height: auto; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+</a>
+<p style="font-size: 0.8rem; margin-top: 0.5rem; color: #666;">🌐 Click image to visit Website</p>
+</div>
+
+<div style="text-align: center;">
+<a href="https://www.facebook.com/SMACCOfficialPage" target="_blank" rel="noopener noreferrer">
+<img src="https://dioceseofkalookan.ph/wp-content/uploads/2020/12/87420405_2637533719861901_3341102811004796928_n-150x150.png" alt="SMACC Logo" style="width: 150px; height: auto; margin: 0 auto;" />
+</a>
+<p style="font-size: 0.8rem; margin-top: 0.5rem; color: #666;">🔵 Click logo for Facebook</p>
+</div>
+
+</div>
+
+<div style="flex: 1.5; min-width: 300px;">
+
+* **Address:** 12th Avenue, Grace Park, Caloocan City  
+* **Telephone:** 8363-2425 / 8363-2525  
+* **Directress:** Sr. Maria Evelyn C. Aguilar, RVM  
+* **Email:** [lcccfinanceoffice@gmail.com](mailto:lcccfinanceoffice@gmail.com)  
+* **Website:** [https://www.smacc.edu.ph/](https://www.smacc.edu.ph/)  
+* **Facebook Page:** [https://www.facebook.com/SMACCOfficialPage](https://www.facebook.com/SMACCOfficialPage)  
+* **Location Map:** [View on Google Maps](https://maps.google.com/maps?q=Madre%20Ignacia%20Ave%2C%20Grace%20Park%2C%20Caloocan%20City%201406)
+
+</div>
+</div>
+
