@@ -122,13 +122,14 @@ Vicariate of Sacred Heart of Jesus, Vicariate of San <br> Bartolome, Vicariate o
 * **Address:** L. Nadurata Street between 7th and 8th Avenue, Grace Park, Caloocan, Philippines
 
 
-<div style="display:flex; gap:1.5rem; margin-bottom:2rem;">
+#### Fr. Mariano C. Bartolome, Jr.
+
+<div style="display:flex; gap:1.5rem; margin-bottom:2rem; align-items:flex-start;">
 <div style="flex:0 0 150px;">
 <img src="https://lh3.google.com/u/0/d/1jU7PBmrCmZNEO6oZoZML42LL4OF-dbF_" width="150" style="border-radius:8px;">
 </div>
-<div>
+<div style="font-size:1.05rem; line-height:1.6;">
 
-#### Fr. Mariano C. Bartolome, Jr.
 * **Position:** Rector & Parish Priest
 * **Parish:** The Diocesan Shrine & Parish Of Immaculate Conception
 * **Address:** 272 Gen. Luna St, Malabon, 1470 Metro Manila
@@ -168,13 +169,14 @@ Vicariate of Sacred Heart of Jesus, Vicariate of San <br> Bartolome, Vicariate o
 * **Address:** A. Mabini St, corner 10th Ave, Poblacion, Caloocan
 
 
-<div style="display:flex; gap:1.5rem; margin-bottom:2rem;">
+#### Fr. Ofero Stephen M. Balana
+
+<div style="display:flex; gap:1.5rem; margin-bottom:2rem; align-items:flex-start;">
 <div style="flex:0 0 150px;">
 <img src="https://lh3.google.com/u/0/d/1ELfAzRWnom3PUc-_ylR_ti8wHnR2xDMx" width="150" style="border-radius:8px;">
 </div>
-<div>
+<div style="font-size:1.05rem; line-height:1.6;">
 
-#### Fr. Ofero Stephen M. Balana
 * **Position:** Parish Priest
 * **Parish:** Santo Niño de Pasión de Navotas Parish
 * **Address:** 4 Daanghari St., Navotas
@@ -188,20 +190,20 @@ Vicariate of Sacred Heart of Jesus, Vicariate of San <br> Bartolome, Vicariate o
 * **Parish:** San Juan Bautista Mission Station
 * **Address:** 49 Kagitingan St., Brgy. Muzon, Malabon
 
-
 #### Fr. Jesus S. Wenceslao
 * **Position:** Chaplain
 * **Parish:** Chapel of Our Lady of the Most Holy Rosary
 * **Address:** SM City Grand Central, Caloocan
 
 
-<div style="display:flex; gap:1.5rem; margin-bottom:2rem;">
+#### Fr. Angelo Andes Ajero
+
+<div style="display:flex; gap:1.5rem; margin-bottom:2rem; align-items:flex-start;">
 <div style="flex:0 0 150px;">
 <img src="https://lh3.google.com/u/0/d/10SUiMKbYIYJUWVe12g8fuAIoJBx6g5S7" width="150" style="border-radius:8px;">
 </div>
-<div>
+<div style="font-size:1.05rem; line-height:1.6;">
 
-#### Fr. Angelo Andes Ajero
 * **Position:** Parochial Vicar
 * **Parish:** San Bartolome Parish
 * **Address:** Rizal Ave. Ext., San Agustin, Malabon
@@ -214,58 +216,50 @@ Vicariate of Sacred Heart of Jesus, Vicariate of San <br> Bartolome, Vicariate o
 * **Position:** Parochial Vicar
 * **Parish:** The Diocesan Shrine & Parish Of Immaculate Conception
 
-
 #### Fr. Arvin L. De Jesus
 * **Position:** Parochial Vicar
 * **Parish:** San Antonio De Padua Parish-Malabon
-
 
 #### Fr. Rommel M. Brebaño
 * **Position:** Parochial Vicar
 * **Parish:** Sacred Heart of Jesus Parish Tugatog
 
-
 #### Fr. Christian Czar M.Manansala
 * **Position:** Parochial Vicar
 * **Parish:** Sacred Heart of Jesus Parish Tugatog
-
 
 #### Fr. Anthony A. Koa
 * **Position:** Parochial Vicar
 * **Parish:** San Roque Cathedral
 
-
 #### Fr. Christian C. Jocson
 * **Position:** Parochial Vicar
 * **Parish:** San Bartolome Parish
-
 
 #### Fr. Randy L. Leonardo
 * **Position:** Parochial Vicar
 * **Parish:** The Diocesan Shrine and Parish of San Jose de Navotas
 
-
 #### Rev. Jon Jon N. Bernardo
 * **Position:** Deacon
 * **Parish:** Saint Gabriel The Archangel Parish
-
 
 #### Fr. Rey Larius Y. Dimayacyac
 * **Position:** Parochial Vicar
 * **Parish:** San Bartolome Parish
 
-
 #### Fr. Allan V. Lopez, OP
 * **Position:** Parish Priest
 
 
-<div style="display:flex; gap:1.5rem; margin-bottom:2rem;">
+#### Msgr. Alex V. Amandy
+
+<div style="display:flex; gap:1.5rem; margin-bottom:2rem; align-items:flex-start;">
 <div style="flex:0 0 150px;">
 <img src="https://lh3.google.com/u/0/d/1L72WuV6PsmbKy6mMYHWtX9URGoSM4vY8" width="150" style="border-radius:8px;">
 </div>
-<div>
+<div style="font-size:1.05rem; line-height:1.6;">
 
-#### Msgr. Alex V. Amandy
 * **Position:** Retired Priest
 
 </div>
