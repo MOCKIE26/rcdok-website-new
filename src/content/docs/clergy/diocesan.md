@@ -24,29 +24,79 @@ Vicariate of Sacred Heart of Jesus, Vicariate of San <br> Bartolome, Vicariate o
 </div>
 
 #### Fr. Gaudioso A. Sustento
+
+<div style="display:flex; gap:1.5rem; margin-bottom:2rem; align-items:flex-start;">
+<div style="flex:0 0 150px;">
+<img src="https://lh3.google.com/u/0/d/1frzop3aae0QywhTqCkEsQ_kd_4hOK5qZ=w1022-h907-iv1?auditContext=prefetch" width="150" style="border-radius:8px;">
+</div>
+<div style="font-size:1.05rem; line-height:1.6;">
+
 * **Position:** Chancellor / Resident Priest
 * **Parish:** Sts. Peter and John Parish
 * **Address:** 36 Orange Road,Potrero, Malabon City, Metro Manila
 
+</div>
+</div>
+
 #### Fr. Rufino P. Yabut
+
+<div style="display:flex; gap:1.5rem; margin-bottom:2rem; align-items:flex-start;">
+<div style="flex:0 0 150px;">
+<img src="https://lh3.google.com/u/0/d/1hwEgDtt92jlVxiyVsQX8yhOP2plbfwgI=w333-h907-iv1?auditContext=prefetch" width="150" style="border-radius:8px;">
+</div>
+<div style="font-size:1.05rem; line-height:1.6;">
+
 * **Position:** Oeconomus / Rector & Parish Priest
 * **Parish:** San Roque Cathedral
 * **Address:** A. Mabini St, corner 10th Ave, Poblacion, Caloocan, 1400 Metro Manila
 
+</div>
+</div>
+
 #### Fr. Romeo C. Tuazon
+
+<div style="display:flex; gap:1.5rem; margin-bottom:2rem; align-items:flex-start;">
+<div style="flex:0 0 150px;">
+<img src="https://lh3.google.com/u/0/d/1kMvRvhDl2Ixsc_WZVICg5yoFute7fuFj=w333-h907-iv1?auditContext=prefetch" width="150" style="border-radius:8px;">
+</div>
+<div style="font-size:1.05rem; line-height:1.6;">
+
 * **Position:** Vicar for Properties / Parish Priest
 * **Parish:** Saint Gabriel The Archangel Parish
 * **Address:** MX5J+C7C Southern, Gregorio Araneta Ave, Caloocan, 1400 Metro Manila
 
+</div>
+</div>
+
 #### Fr. Francis M. Sarmiento
+
+<div style="display:flex; gap:1.5rem; margin-bottom:2rem; align-items:flex-start;">
+<div style="flex:0 0 150px;">
+<img src="https://lh3.google.com/u/0/d/1pAi4p-OcC886EIfNw5HwcwWy4dazHaxK=w1022-h907-iv1?auditContext=forDisplay" width="150" style="border-radius:8px;">
+</div>
+<div style="font-size:1.05rem; line-height:1.6;">
+
 * **Position:** Director of Human Resource / Parish Priest
 * **Parish:** San Ildefonso Parish
 * **Address:** Estrella corner L. R. Yangco Sts., Navotas, Philippines
 
+</div>
+</div>
+
 #### Fr. Paul Nickluas C.Woo
+
+<div style="display:flex; gap:1.5rem; margin-bottom:2rem; align-items:flex-start;">
+<div style="flex:0 0 150px;">
+<img src="https://lh3.google.com/u/0/d/1A9Yx9MFu5vYTNDAHybymW6GqeZ3xVgsK=w333-h907-iv1?auditContext=prefetch" width="150" style="border-radius:8px;">
+</div>
+<div style="font-size:1.05rem; line-height:1.6;">
+
 * **Position:** Archives & Museum Director / Parochial Vicar
 * **Parish:** Mary Help Of Christian Parish
 * **Address:** 278 J.P Rizal St, Maypajo, Caloocan, 1410 Metro Manila
+
+</div>
+</div>
 
 #### Fr. Rene Richard B. Bernardo
 
@@ -86,8 +136,8 @@ Vicariate of Sacred Heart of Jesus, Vicariate of San <br> Bartolome, Vicariate o
 #### Fr. Leandro M. Magnait
 
 <div style="display:flex; gap:1.5rem; margin-bottom:2rem; align-items:flex-start;">
-<div style="flex:0 0 150px;">
-<img src="https://lh3.google.com/u/0/d/1furqwDvEa615jakYPvw9m-MSVWFtL7VX=w1022-h907-iv1?auditContext=forDisplay" width="150" style="border-radius:8px;">
+<div style="flex:0 0 150px; overflow:hidden; border-radius:8px;">
+<img src="https://lh3.google.com/u/0/d/1furqwDvEa615jakYPvw9m-MSVWFtL7VX=w1022-h907-iv1?auditContext=forDisplay" width="220" style="margin-top:-20px; margin-left:-35px;">
 </div>
 <div style="font-size:1.05rem; line-height:1.6;">
 
@@ -152,9 +202,19 @@ Vicariate of Sacred Heart of Jesus, Vicariate of San <br> Bartolome, Vicariate o
 </div>
 
 #### Fr. Lauro E. Toledo
+
+<div style="display:flex; gap:1.5rem; margin-bottom:2rem; align-items:flex-start;">
+<div style="flex:0 0 150px;">
+<img src="https://lh3.google.com/u/0/d/1_y4xsLvKFuosodLUo7yJa5LG0paKGWXX=w333-h907-iv1?auditContext=prefetch" width="150" style="border-radius:8px;">
+</div>
+<div style="font-size:1.05rem; line-height:1.6;">
+
 * **Position:** Chaplain
 * **Parish:** La Loma Catholic Cemetery
 * **Address:** C3, HI-WAY across, 7th St, Grace Park East, Caloocan, 1014 Metro Manila
+
+</div>
+</div>
 
 #### Fr. Joey C. Enriquez
 
@@ -381,9 +441,19 @@ Vicariate of Sacred Heart of Jesus, Vicariate of San <br> Bartolome, Vicariate o
 </div>
 
 #### Fr. Jesus S. Wenceslao
+
+<div style="display:flex; gap:1.5rem; margin-bottom:2rem; align-items:flex-start;">
+<div style="flex:0 0 150px;">
+<img src="https://lh3.google.com/u/0/d/1r5Cv51n3_EzOuXBgzYSM2szR67iMqCQ_=w333-h907-iv1?auditContext=prefetch" width="150" style="border-radius:8px;">
+</div>
+<div style="font-size:1.05rem; line-height:1.6;">
+
 * **Position:** Chaplain
 * **Parish:** Chapel of Our Lady of the Most Holy Rosary
 * **Address:** SM City Grand Central, Caloocan
+
+</div>
+</div>
 
 
 #### Fr. Angelo Andes Ajero
