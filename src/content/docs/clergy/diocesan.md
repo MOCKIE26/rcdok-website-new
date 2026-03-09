@@ -9,9 +9,19 @@ description: Information about the clergy serving the diocese.
 Vicariate of Sacred Heart of Jesus, Vicariate of San <br> Bartolome, Vicariate of San Jose, Vicariate of San <br> Roque, Mission Stations
 
 #### Fr. Jeronimo Ma. J. Cruz
+
+<div style="display:flex; gap:1.5rem; margin-bottom:2rem; align-items:flex-start;">
+<div style="flex:0 0 150px;">
+<img src="https://lh3.google.com/u/0/d/1RgGlNZkbtJa3cNhRMMHHYFOHlK4TuIdc=w333-h907-iv1?auditContext=prefetch" width="150" style="border-radius:8px;">
+</div>
+<div style="font-size:1.05rem; line-height:1.6;">
+
 * **Position:** Vicar General / Rector & Parish Priest
 * **Parish:** San Bartolome Parish
 * **Address:** Rizal Ave. Ext., San Agustin, Malabon, Philippines
+
+</div>
+</div>
 
 #### Fr. Gaudioso A. Sustento
 * **Position:** Chancellor / Resident Priest
@@ -39,9 +49,19 @@ Vicariate of Sacred Heart of Jesus, Vicariate of San <br> Bartolome, Vicariate o
 * **Address:** 278 J.P Rizal St, Maypajo, Caloocan, 1410 Metro Manila
 
 #### Fr. Rene Richard B. Bernardo
+
+<div style="display:flex; gap:1.5rem; margin-bottom:2rem; align-items:flex-start;">
+<div style="flex:0 0 150px;">
+<img src="https://lh3.google.com/u/0/d/1uIXZVYUH2XrLroQreRerhDX9QzP40ogq=w1022-h889-iv1?auditContext=forDisplay" width="150" style="border-radius:8px;">
+</div>
+<div style="font-size:1.05rem; line-height:1.6;">
+
 * **Position:** Health Management Officer / Priest Administrator
 * **Parish:** Holy Trinity Quasi - Parish
 * **Address:** 111 Sanchez St, Malabon, Metro Manila
+
+</div>
+</div>
 
 #### Fr. Rey O. Amante
 * **Position:** Resident Priest
@@ -154,9 +174,19 @@ Vicariate of Sacred Heart of Jesus, Vicariate of San <br> Bartolome, Vicariate o
 * **Address:** 20 Don Basilio Bautista Blvd, Malabon, Metro Manila
 
 #### Fr. Alberto T. Caballero
+
+<div style="display:flex; gap:1.5rem; margin-bottom:2rem; align-items:flex-start;">
+<div style="flex:0 0 150px;">
+<img src="https://lh3.google.com/u/0/d/1kqsxx4mHrFFuc6JULhvK3lZaimyqd_z1=w333-h907-iv1?auditContext=prefetch" width="150" style="border-radius:8px;">
+</div>
+<div style="font-size:1.05rem; line-height:1.6;">
+
 * **Position:** Parish Priest
 * **Parish:** Sta. Cruz Parish Tanza Navotas
 * **Address:** Sampaguita St., Merville Subd., 1490 Navotas, Philippines
+
+</div>
+</div>
 
 #### Fr. Richard DC. Omol
 * **Position:** Parish Priest
@@ -241,8 +271,18 @@ Vicariate of Sacred Heart of Jesus, Vicariate of San <br> Bartolome, Vicariate o
 * **Parish:** The Diocesan Shrine and Parish of San Jose de Navotas
 
 #### Rev. Jon Jon N. Bernardo
+
+<div style="display:flex; gap:1.5rem; margin-bottom:2rem; align-items:flex-start;">
+<div style="flex:0 0 150px;">
+<img src="https://lh3.google.com/u/0/d/1rOR28sG3pB8zJokaMDaGX7j4sv_S9l0g=w1022-h889-iv1?auditContext=prefetch" width="150" style="border-radius:8px;">
+</div>
+<div style="font-size:1.05rem; line-height:1.6;">
+
 * **Position:** Deacon
 * **Parish:** Saint Gabriel The Archangel Parish
+
+</div>
+</div>
 
 #### Fr. Rey Larius Y. Dimayacyac
 * **Position:** Parochial Vicar
@@ -270,7 +310,17 @@ Vicariate of Sacred Heart of Jesus, Vicariate of San <br> Bartolome, Vicariate o
 * **Position:** Retired Priest
 
 #### Fr. Constantino Conti
+
+<div style="display:flex; gap:1.5rem; margin-bottom:2rem; align-items:flex-start;">
+<div style="flex:0 0 150px;">
+<img src="https://lh3.google.com/u/0/d/16o8IsTcuC5jhNE5ZNTpdmHkCfM3KsGfo=w333-h907-iv1?auditContext=prefetch" width="150" style="border-radius:8px;">
+</div>
+<div style="font-size:1.05rem; line-height:1.6;">
+
 * **Position:** Retired Priest
+
+</div>
+</div>
 
 #### Fr. Antonio F. Nopasa
 * **Position:** Retired Priest
