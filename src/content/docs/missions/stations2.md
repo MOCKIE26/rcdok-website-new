@@ -1,5 +1,5 @@
 ---
-title: Mission Stations
+title: Mission Stations2
 description: Mission stations under the Diocese of Kalookan.
 ---
 
