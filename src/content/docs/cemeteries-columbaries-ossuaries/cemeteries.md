@@ -83,8 +83,29 @@ description: Catholic cemeteries under the diocese.
 ## San Jose Catholic Cemetery
 
 ---
+
+<div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; margin-bottom: 2rem;">
+  <div style="flex: 1; min-width: 300px;">
+    <a href="https://maps.app.goo.gl/3mC8wK7zN6y7sWzT7" target="_blank" rel="noopener noreferrer">
+      <img 
+        src="/san-jose-navotas.jpg" 
+        alt="San Jose Catholic Cemetery Navotas" 
+        style="border-radius: 8px; width: 100%; height: auto; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
+      />
+    </a>
+    <p style="font-size: 0.85rem; color: #666; margin-top: 0.5rem; text-align: center;">
+      📍 Click image to open in Google Maps
+    </p>
+  </div>
+
+  <div style="flex: 1.5; min-width: 300px;">
+
 * **Address:** Los Martirez St., Navotas City  
 * **Telephone:** (02) 282 9126  
 
+**Administration**
 * **Parish Priest/Administrator:** Rev. Fr. Rufino P. Yabut  
 * **Staff:** Mr. Russell Bautista  
+
+  </div>
+</div>
