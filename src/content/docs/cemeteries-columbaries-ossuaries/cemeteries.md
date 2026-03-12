@@ -86,7 +86,7 @@ description: Catholic cemeteries under the diocese.
 
 <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; margin-bottom: 2rem;">
   <div style="flex: 1; min-width: 300px;">
-    <a href="https://maps.app.goo.gl/uP4A7WfQyD2J1U4A" target="_blank" rel="noopener noreferrer">
+    <a href="https://maps.app.goo.gl/hzX7gFa0lzMRuP9h6" target="_blank" rel="noopener noreferrer">
       <img 
         src="/san-jose-navotas.png" 
         alt="San Jose Catholic Cemetery Navotas" 
