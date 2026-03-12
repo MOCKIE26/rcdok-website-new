@@ -44,9 +44,26 @@ description: Catholic cemeteries under the diocese.
 ## San Bartolome Catholic Cemetery
 
 ---
+
+<div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; margin-bottom: 2rem;">
+  <div style="flex: 1; min-width: 300px;">
+    <a href="https://www.findagrave.com/cemetery/2658691/san-bartolome-catholic-cemetery" target="_blank" rel="noopener noreferrer">
+      <img 
+        src="san bartoleme.jpg" 
+        alt="San Bartolome Catholic Cemetery" 
+        style="border-radius: 8px; width: 100%; height: auto; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
+      />
+    </a>
+    <p style="font-size: 0.85rem; color: #666; margin-top: 0.5rem; text-align: center;">
+      📍 Click image to view on Find A Grave
+    </p>
+  </div>
+
+  <div style="flex: 1.5; min-width: 300px;">
 * **Address:** #6 Rizal Ave. Ext., San Agustin, Malabon City  
 * **Telephone:** (02) 283-3512 / (02) 281-1266  
 
+**Administration**
 * **Parish Priest/Administrator:** Rev. Fr. Elpidio Erlano Jr.  
 * **Deputy Administrator/Payroll Master:** Mr. Francisco C. Torrefiel II  
 * **Cashier/Cemetery Assistant/IT Specialist:** Mr. Noli P. Villafuerte  
@@ -54,6 +71,8 @@ description: Catholic cemeteries under the diocese.
 * **Liaison Officer/Cemetery Custodian:** Mr. Allan M. Simbulan  
 * **Cemetery Guard:** Mr. Rolando A. Gumapos  
 * **Cemetery Maintenance:** Mr. Amorie T. Cruz  
+  </div>
+</div>
 
 ---
 
