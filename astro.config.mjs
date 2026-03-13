@@ -4,7 +4,7 @@ import starlight from '@astrojs/starlight';
 
 export default defineConfig({
     site: 'https://MOCKIE26.github.io',
-    base: '/rcdok-website-new',
+    base: process.env.VERCEL ? '/' : '/rcdok-website-new',
 
 	integrations: [
 		starlight({
