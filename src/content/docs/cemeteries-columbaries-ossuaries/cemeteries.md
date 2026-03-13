@@ -82,7 +82,7 @@ description: Catholic cemeteries under the diocese.
 
 <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; margin-bottom: 2rem;">
   <div style="flex: 1; min-width: 300px;">
-    <a href="https://www.google.com/maps?q=San+Jose+Catholic+Cemetery+Navotas" target="_blank" rel="noopener noreferrer">
+    <a href="https://maps.app.goo.gl/hzX7gFa0lzMRuP9heNQYJbg" target="_blank" rel="noopener noreferrer">
       <img
         src="/src/assets/churches/diocesan-shrine-and-parish-of-san-jose-de-navotas.jpg"
         alt="Diocesan Shrine and Parish of San Jose de Navotas"
@@ -105,39 +105,3 @@ description: Catholic cemeteries under the diocese.
 
   </div>
 </div>
-
-<script>
-  const slides = {
-    llcc: {
-      images: [
-        "https://dioceseofkalookan.ph/wp-content/uploads/2020/12/dscf3275.jpg",
-        "https://dioceseofkalookan.ph/wp-content/uploads/2020/12/archival-photos-la-loma-7-1_2021-07-04_17-43-29.jpg",
-        "https://dioceseofkalookan.ph/wp-content/uploads/2020/12/BluPrint-Stories-in-Stone-3.jpg"
-      ],
-      current: 0,
-      preloaded: []
-    }
-  };
-
-  function preloadImages(id) {
-    slides[id].images.forEach(src => {
-      const img = new Image();
-      img.src = src;
-      slides[id].preloaded.push(img);
-    });
-  }
-
-  function nextSlide(id) {
-    const s = slides[id];
-    s.current = (s.current + 1) % s.images.length;
-    document.getElementById('slide-' + id).src = s.images[s.current];
-  }
-
-  function prevSlide(id) {
-    const s = slides[id];
-    s.current = (s.current - 1 + s.images.length) % s.images.length;
-    document.getElementById('slide-' + id).src = s.images[s.current];
-  }
-
-  document.addEventListener('DOMContentLoaded', () => preloadImages('llcc'));
-</script>
