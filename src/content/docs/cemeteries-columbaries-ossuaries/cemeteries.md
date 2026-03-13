@@ -48,7 +48,7 @@ description: Catholic cemeteries under the diocese.
 <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; margin-bottom: 2rem;">
 
   <div style="flex: 1; min-width: 300px;">
-    <a href="https://www.findagrave.com/cemetery/2658691/san-bartolome-catholic-cemetery" target="_blank" rel="noopener noreferrer" style="display: block;">
+    <a href="https://maps.app.goo.gl/35uL6Hof7hF75w42A" target="_blank" rel="noopener noreferrer" style="display: block;">
       <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/San_Bartolome_de_Malabon_Catholic_Cemetery_10.jpg" alt="San Bartolome Catholic Cemetery" style="border-radius: 8px; width: 100%; height: auto; box-shadow: 0 4px 6px rgba(0,0,0,0.1); cursor: pointer; display: block;" />
     </a>
     <p style="font-size: 0.85rem; color: #666; margin-top: 0.5rem; text-align: center;">📍 Click image to open in Google Maps</p>
@@ -79,27 +79,62 @@ description: Catholic cemeteries under the diocese.
 ---
 
 <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; margin-bottom: 2rem;">
+
   <div style="flex: 1; min-width: 300px;">
-    <a href="https://maps.app.goo.gl/hzX7gFa0lzMRuP9heNQYJbg" target="_blank" rel="noopener noreferrer">
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/San_Jose_de_Navotas_Church%2C_Navotas_City.jpg/1280px-San_Jose_de_Navotas_Church%2C_Navotas_City.jpg?_=20201012124200"
-        alt="Diocesan Shrine and Parish of San Jose de Navotas"
-        style="border-radius: 8px; width: 100%; height: auto; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
-      />
+    <a href="https://www.google.com/maps/search/?api=1&query=San+Jose+Catholic+Cemetery+Navotas" target="_blank" rel="noopener noreferrer" style="display: block;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/San_Jose_de_Navotas_Church%2C_Navotas_City.jpg/1280px-San_Jose_de_Navotas_Church%2C_Navotas_City.jpg?_=20201012124200" alt="San Jose Catholic Cemetery Navotas" style="border-radius: 8px; width: 100%; height: auto; box-shadow: 0 4px 6px rgba(0,0,0,0.1); cursor: pointer; display: block;" />
     </a>
-    <p style="font-size: 0.85rem; color: #666; margin-top: 0.5rem; text-align: center;">
-      📍 Click image to open in Google Maps
-    </p>
+    <p style="font-size: 0.85rem; color: #666; margin-top: 0.5rem; text-align: center;">📍 Click image to open in Google Maps</p>
   </div>
+
 
   <div style="flex: 1.5; min-width: 300px;">
 
-* **Address:** Los Martirez St., Navotas City
-* **Telephone:** (02) 282 9126
+* **Address:** Los Martirez St., Navotas City  
+* **Telephone:** (02) 282 9126  
 
 **Administration**
-* **Parish Priest/Administrator:** Rev. Fr. Rufino P. Yabut
-* **Staff:** Mr. Russell Bautista
+* **Parish Priest/Administrator:** Rev. Fr. Rufino P. Yabut  
+* **Staff:** Mr. Russell Bautista  
 
   </div>
 </div>
+
+
+
+
+<script>
+  const slides = {
+    llcc: {
+      images: [
+        "https://dioceseofkalookan.ph/wp-content/uploads/2020/12/dscf3275.jpg",
+        "https://dioceseofkalookan.ph/wp-content/uploads/2020/12/archival-photos-la-loma-7-1_2021-07-04_17-43-29.jpg",
+        "https://dioceseofkalookan.ph/wp-content/uploads/2020/12/BluPrint-Stories-in-Stone-3.jpg"
+      ],
+      current: 0,
+      preloaded: []
+    }
+  };
+
+  function preloadImages(id) {
+    slides[id].images.forEach(src => {
+      const img = new Image();
+      img.src = src;
+      slides[id].preloaded.push(img);
+    });
+  }
+
+  function nextSlide(id) {
+    const s = slides[id];
+    s.current = (s.current + 1) % s.images.length;
+    document.getElementById('slide-' + id).src = s.images[s.current];
+  }
+
+  function prevSlide(id) {
+    const s = slides[id];
+    s.current = (s.current - 1 + s.images.length) % s.images.length;
+    document.getElementById('slide-' + id).src = s.images[s.current];
+  }
+
+  document.addEventListener('DOMContentLoaded', () => preloadImages('llcc'));
+</script>
