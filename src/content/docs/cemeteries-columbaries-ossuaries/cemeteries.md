@@ -48,7 +48,7 @@ description: Catholic cemeteries under the diocese.
 <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; margin-bottom: 2rem;">
 
   <div style="flex: 1; min-width: 300px;">
-    <a href="https://maps.app.goo.gl/35uL6Hof7hF75w42A" target="_blank" rel="noopener noreferrer" style="display: block;">
+    <a href="https://www.findagrave.com/cemetery/2658691/san-bartolome-catholic-cemetery" target="_blank" rel="noopener noreferrer" style="display: block;">
       <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/San_Bartolome_de_Malabon_Catholic_Cemetery_10.jpg" alt="San Bartolome Catholic Cemetery" style="border-radius: 8px; width: 100%; height: auto; box-shadow: 0 4px 6px rgba(0,0,0,0.1); cursor: pointer; display: block;" />
     </a>
     <p style="font-size: 0.85rem; color: #666; margin-top: 0.5rem; text-align: center;">📍 Click image to open in Google Maps</p>
