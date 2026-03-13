@@ -78,24 +78,32 @@ description: Catholic cemeteries under the diocese.
 
 ---
 
+## San Jose Catholic Cemetery
+
+---
+
 <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; margin-bottom: 2rem;">
-
   <div style="flex: 1; min-width: 300px;">
-    <a href="https://www.google.com/maps/search/?api=1&query=San+Jose+Catholic+Cemetery+Navotas" target="_blank" rel="noopener noreferrer" style="display: block;">
-      <img src="../../../../../public/san-jose-navotas.png" alt="San Jose Catholic Cemetery Navotas" style="border-radius: 8px; width: 100%; height: auto; box-shadow: 0 4px 6px rgba(0,0,0,0.1); cursor: pointer; display: block;" />
+    <a href="https://www.google.com/maps?q=San+Jose+Catholic+Cemetery+Navotas" target="_blank" rel="noopener noreferrer">
+      <img
+        src="/src/assets/churches/san-jose-parish.jpg"
+        alt="Diocesan Shrine and Parish of San Jose de Navotas"
+        style="border-radius: 8px; width: 100%; height: auto; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
+      />
     </a>
-    <p style="font-size: 0.85rem; color: #666; margin-top: 0.5rem; text-align: center;">📍 Click image to open in Google Maps</p>
+    <p style="font-size: 0.85rem; color: #666; margin-top: 0.5rem; text-align: center;">
+      📍 Click image to open in Google Maps
+    </p>
   </div>
-
 
   <div style="flex: 1.5; min-width: 300px;">
 
-* **Address:** Los Martirez St., Navotas City  
-* **Telephone:** (02) 282 9126  
+* **Address:** Los Martirez St., Navotas City
+* **Telephone:** (02) 282 9126
 
 **Administration**
-* **Parish Priest/Administrator:** Rev. Fr. Rufino P. Yabut  
-* **Staff:** Mr. Russell Bautista  
+* **Parish Priest/Administrator:** Rev. Fr. Rufino P. Yabut
+* **Staff:** Mr. Russell Bautista
 
   </div>
 </div>
