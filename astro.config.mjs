@@ -161,7 +161,8 @@ export default defineConfig({
 					collapsed: true,
 					items: [
 						{ label: 'Our History', slug: 'about-us/history' },
-						{ label: 'Our Bishop', slug: 'about-us/our-bishop' }
+						{ label: 'Our Bishop', slug: 'about-us/our-bishop' },
+						{ label: 'Coat of Arms', slug: 'about-us/about' }
 					],
 				},
 				{
