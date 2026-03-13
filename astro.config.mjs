@@ -138,7 +138,7 @@ export default defineConfig({
 						},
 						{ label: 'Mission Centers', slug: 'missions/centers' },
 						{ label: 'Mission Programs', slug: 'missions/programs' },
-						{ label: 'Mission Headquarters', slug: 'guides/example' },
+						{ label: 'Mission Headquarters', slug: 'missions/headquarters' },
 					],
 				},
 				{
