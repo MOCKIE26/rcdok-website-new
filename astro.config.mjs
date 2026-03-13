@@ -133,8 +133,13 @@ export default defineConfig({
 				},
 				{
 					label: 'About Us',
-					autogenerate: { directory: 'about-us' },
-				},{
+					collapsed: true,
+					items: [
+						{ label: 'Our History', slug: 'about-us/history' },
+						{ label: 'Our Bishop', slug: 'about-us/our-bishop' }
+					],
+				},
+				{
 					label: 'Contact',
 					autogenerate: { directory: 'contact' },
 				},
