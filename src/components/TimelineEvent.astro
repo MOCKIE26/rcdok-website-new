@@ -1,22 +1,20 @@
 ---
-// src/components/TimelineEvent.astro
 const { year, month, day, title } = Astro.props;
 
 let displayDate = "";
 
 if (month && day && year) {
-  displayDate = `${month} ${day}, ${year}`; // e.g., "January 23, 1991"
+  displayDate = `${month} ${day}, ${year}`; 
 } else if (month && year) {
-  displayDate = `${month} ${year}`;         // e.g., "January 1991"
+  displayDate = `${month} ${year}`;         
 } else {
-  displayDate = year;                       // e.g., "1991"
+  displayDate = year;                  
 }
 ---
 <div class="timeline-event">
   <div class="timeline-dot"></div>
   <div class="timeline-content">
     
-    {/* Use the dynamically formatted date here */}
     <span class="timeline-date">{displayDate}</span>
     
     {title && <h3 class="timeline-title">{title}</h3>}
@@ -39,7 +37,7 @@ if (month && day && year) {
     height: 0.85rem;
     border-radius: 50%;
     background-color: var(--sl-color-accent);
-    box-shadow: 0 0 0 4px var(--sl-color-bg); /* Creates a cutout effect */
+    box-shadow: 0 0 0 4px var(--sl-color-bg); 
   }
 
   .timeline-year {
