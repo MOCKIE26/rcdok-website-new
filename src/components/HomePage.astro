@@ -1,0 +1,121 @@
+---
+import { Image } from 'astro:assets';
+import coatOfArms from '../assets/coat-of-arms.png';
+---
+
+<section class="custom-hero">
+  <div class="hero-container">
+    <div class="hero-visual">
+      <Image src={coatOfArms} alt="Diocese of Kalookan Coat of Arms" class="coa-img" />
+    </div>
+    
+    <div class="hero-text">
+      <h1 class="diocese-title">Roman Catholic Diocese of Kalookan</h1>
+      <div class="gold-line"></div>
+      <p class="tagline">
+        Welcome to the official digital gateway of our community. 
+        A platform for parish information, diocesan announcements, 
+        pastoral programs, and faithful engagement.
+      </p>
+      
+      <div class="hero-actions">
+        <a href="/parishes/vicar-grace/diocesan-shrine-of-our-lady-of-grace/" class="btn-primary">Parish Directory</a>
+        <a href="/about-us/history/" class="btn-secondary">Our History</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .custom-hero {
+    padding: 4rem 1rem;
+    background: radial-gradient(circle at center, var(--sl-color-gray-6) 0%, transparent 100%);
+    margin-bottom: 3rem;
+  }
+
+  .hero-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .coa-img {
+    width: 180px;
+    height: auto;
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));
+    animation: fadeIn 1.5s ease-out;
+  }
+
+  .diocese-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: var(--sl-color-white);
+    line-height: 1.1;
+    margin: 0;
+  }
+
+  .gold-line {
+    width: 80px;
+    height: 3px;
+    background: #d4af37;
+    margin: 1.5rem auto;
+  }
+
+  .tagline {
+    font-size: 1.2rem;
+    color: var(--sl-color-gray-2);
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto 2.5rem;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .btn-primary, .btn-secondary {
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+  }
+
+  .btn-primary {
+    background: #d4af37;
+    color: #1a1a1a !important;
+  }
+
+  .btn-primary:hover {
+    background: #f1c40f;
+    transform: translateY(-2px);
+  }
+
+  .btn-secondary {
+    border: 1px solid var(--sl-color-gray-4);
+    color: var(--sl-color-white) !important;
+  }
+
+  .btn-secondary:hover {
+    background: var(--sl-color-gray-5);
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @media (max-width: 768px) {
+    .hero-actions { flex-direction: column; width: 100%; }
+    .btn-primary, .btn-secondary { width: 100%; }
+  }
+</style>

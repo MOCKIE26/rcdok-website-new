@@ -1,0 +1,77 @@
+---
+import { Image } from 'astro:assets';
+const { title, imagePath, altText } = Astro.props;
+---
+
+<section class="prayer-section">
+  <div class="prayer-card">
+    <Image src={imagePath} alt={altText || title} class="prayer-image" />
+  </div>
+
+  <div class="prayer-info">
+    <h2 class="prayer-name">{title}</h2>
+    <div class="gold-divider"></div>
+    
+    <div class="prayer-body">
+      <slot />
+    </div>
+  </div>
+</section>
+
+<style>
+  .prayer-section {
+    margin-bottom: 6rem; /* Wide spacing between different prayers */
+    text-align: center;
+  }
+
+  .prayer-card {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+    border: 1px solid var(--sl-color-gray-5);
+  }
+
+  .prayer-image {
+    width: 100%;
+    height: auto; 
+    position: relative;
+    border-radius: 4px; 
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  }
+
+  .prayer-section:hover .prayer-image {
+    transform: scale(1.03);
+  }
+
+  .prayer-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    color: var(--sl-color-white);
+    margin-bottom: 0.5rem;
+  }
+
+  .gold-divider {
+    width: 50px;
+    height: 3px;
+    background: #d4af37;
+    margin: 0 auto 2rem;
+  }
+
+  .prayer-body {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    color: var(--sl-color-gray-2);
+    font-style: italic;
+    white-space: pre-line;
+    max-width: 650px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 768px) {
+    .prayer-name { font-size: 2rem; }
+    .prayer-body { font-size: 1.15rem; padding: 0 1rem; }
+    .prayer-section { margin-bottom: 4rem; }
+  }
+</style>
