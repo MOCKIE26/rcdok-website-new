@@ -1,0 +1,11 @@
+---
+import { Image } from 'astro:assets';
+const { title, imagePath, url } = Astro.props;
+---
+
+<a href={url} class="program-card">
+  <div class="image-wrapper">
+    <Image src={imagePath} alt={title} class="program-img" />
+  </div>
+  <p class="program-title">{title}</p>
+</a>

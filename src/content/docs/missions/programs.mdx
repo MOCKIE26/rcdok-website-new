@@ -1,0 +1,83 @@
+---
+title: Mission Programs
+---
+
+import MissionGrid from '../../../components/MissionGrid.astro';
+import ProgramCard from '../../../components/ProgramCard.astro';
+
+import busogPuso from '../../../assets/mission-programs/busog-puso.jpg';
+import civilRegistry from '../../../assets/mission-programs/civil-registry.png';
+import justiceMin from '../../../assets/mission-programs/justice-ministry.jpg';
+import kaagapay from '../../../assets/mission-programs/kaagapay.jpg';
+import salubong from '../../../assets/mission-programs/salubong.jpg';
+import bec from '../../../assets/mission-programs/bec.jpg';
+import slbngRehab from '../../../assets/mission-programs/salubong-rehabilitation.jpg';
+import street from '../../../assets/mission-programs/street-children.jpg';
+import ejk from '../../../assets/mission-programs/ejk-orphans.png';
+import scholarship from '../../../assets/mission-programs/scholarship-program.jpg';
+
+
+
+## Our Initiatives
+
+<MissionGrid>
+  <ProgramCard 
+    title="Access to Nutrition Ministry (Busog Puso)" 
+    imagePath={busogPuso} 
+  />
+  
+  <ProgramCard 
+    title="Access to Civil Registry Ministry" 
+    imagePath={civilRegistry} 
+  />
+
+  <ProgramCard 
+    title="Access to Justice Ministry" 
+    imagePath={justiceMin} 
+  />
+
+  <ProgramCard 
+    title="Access to Mental Health Ministry (Kaagapay)" 
+    imagePath={kaagapay} 
+  />
+
+  <ProgramCard 
+    title="Access to Drug Rehabilitation Ministry (Salubong)" 
+    imagePath={salubong} 
+  />
+
+  <ProgramCard 
+    title="Access to Community Ministry (BEC)" 
+    imagePath={bec} 
+  />
+</MissionGrid>
+
+
+## Pastoral Programs
+
+<MissionGrid>
+  <ProgramCard 
+    title="Salubong Rehabilitation Program" 
+    imagePath={slbngRehab} 
+    url="/missions/salubong-rehabilitation/"
+  />
+  
+  <ProgramCard 
+    title="Center of Mercy for Street Children" 
+    imagePath={street} 
+    url="/missions/street-children/"
+  />
+
+  <ProgramCard 
+    title="EJK Victims Orphans Program" 
+    imagePath={ejk} 
+    url="/missions/ejk-orphans"
+  />
+
+  <ProgramCard 
+    title="Scholarship Program" 
+    imagePath={scholarship} 
+    url="/missions/scholarship/"
+  />
+
+</MissionGrid>
