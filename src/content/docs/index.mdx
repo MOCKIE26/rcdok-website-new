@@ -1,23 +1,22 @@
 ---
 title: Home
-description: A home page in my new Starlight docs site.
-hero:
-  tagline: Welcome to the official website of the Roman Catholic Diocese of Kalookan. 
-      This platform serves as a digital gateway for parish information, diocesan 
-      announcements, pastoral programs, and community engagement.
-  image:
-      file: ../../assets/coat-of-arms.png
+description: Official Website of the Diocese of Kalookan
 ---
 
+import HomePage from '../../components/HomePage.astro';
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-### Quick Links
+<HomePage />
+
+<hr style="border-top: 1px solid var(--sl-color-gray-5); margin: 4rem 0;" />
+
+## Digital Resources
 
 <CardGrid>
-  <Card title="Parish Directory" icon="pencil">
-    <a href="/parishes/vicar-grace/diocesan-shrine-of-our-lady-of-grace/">Find contact details for all parishes within the diocese.</a>
+  <Card title="Liturgical Prayers" icon="heart">
+    Access our collection of [Daily Prayers](/prayers/) and devotionals.
   </Card>
-  <Card title="Announcements" icon="add-document">
-    <a href="/news/">Stay updated with the latest news.</a>
+  <Card title="Social Media" icon="external">
+    Follow our [Official Facebook Page](https://www.facebook.com/dioceseofkalookan/) for news and updates.
   </Card>
 </CardGrid>
