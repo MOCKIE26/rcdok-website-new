@@ -1,6 +1,8 @@
 ---
 import { Image } from 'astro:assets';
-const { name, img, priest, address, contact, fbLink } = Astro.props;
+const { name, img, priest, vicar, address, mapUrl, contact, fbLink,
+ weekdaySchedule, satSchedule, sunAM, sunPM,
+   confessionSchedule, officeHours } = Astro.props;
 ---
 
 <section class="parish-profile-container">
@@ -16,29 +18,52 @@ const { name, img, priest, address, contact, fbLink } = Astro.props;
       <div class="accent-bar"></div>
     </header>
 
-    {/* Grid */}
+    {/* Information Grid */}
     <div class="info-grid">
-        <div class="info-item">
-          <span class="label">Parish Priest</span>
-          <p class="value">{priest}</p>
-        </div>
-
-        <div class="info-item">
-          <span class="label">Location</span>
-          <p class="value">{address}</p>
-        </div>
-
-        <div class="info-item">
-          <span class="label">Contact</span>
-          <p class="value">{contact}</p>
-        </div>
-        
-        <div class="info-item action-item">
-          <span class="label"></span> <p class="value">
-            <a href={fbLink} target="_blank" class="gold-link">
-              View Official Community Page →
-            </a>
-          </p>
+      <div class="info-column">
+          {/*  Parish Priest */}
+          <div class="info-item">
+            <span class="label">Parish Priest</span>
+            <p class="value">{priest}</p>
+          </div>
+          {/*  Parochial Vicar */}
+          <div class="info-item">
+            <span class="label">Parochial Vicar</span>
+            <p class="value">
+              {vicar ? (
+                vicar
+              ) : (
+                <span class="placeholder-text">To be added</span>
+              )}
+            </p>
+          </div>
+          {/*  Contact Information */}
+          <div class="info-item">
+            <span class="label">Contact</span>
+            <p class="value">{contact}</p>
+          </div>
+          {/* Facebook Page Link */}
+          <div class="info-item action-item">
+            <p class="value">
+              <a href={fbLink} target="_blank" class="gold-link">
+                View Official Facebook Page →
+              </a>
+            </p>
+          </div>
+      </div>
+      {/* Address and Map Link */}
+      <div class="info-column">
+          <div class="info-item">
+            <span class="label">Location</span>
+            <p class="value">{address}</p>
+            {mapUrl && (
+              <div class="map-wrapper">
+                <iframe src={mapUrl} width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+            )}
+          </div>
+          
+          
         </div>
     </div>
 
@@ -47,6 +72,56 @@ const { name, img, priest, address, contact, fbLink } = Astro.props;
       <h3>Our Heritage</h3>
       <div class="history-content">
         <slot />
+      </div>
+    </div>
+
+    {/* Schedule Section */}
+    <div class="schedule-section">
+      <div class="schedule-divider"></div>
+      
+      <div class="schedule-header">
+        <h3>Church Schedules</h3>
+      </div>
+
+      <div class="schedule-container">
+        <div class="schedule-group">
+          <div class="schedule-badge">Weekdays</div>
+          <p class="schedule-value">{weekdaySchedule}</p>
+        </div>
+
+        <div class="schedule-group">
+          <div class="schedule-badge">Saturday</div>
+          <p class="schedule-value">{satSchedule}</p>
+        </div>
+
+        <div class="schedule-group sunday-group">
+          <div class="schedule-badge">Sunday</div>
+          <div class="sunday-columns-wrapper">
+            <div class="column">
+              <p class="schedule-value">{sunAM}</p>
+            </div>
+            <div class="column-divider"></div>
+            <div class="column">
+              <p class="schedule-value">{sunPM}</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Confession Group (Optional) */}
+        <div class="schedule-group">
+          <div class="schedule-badge">Confession Hours</div>
+          <p class={confessionSchedule ? "schedule-value" : "placeholder-text"}>
+            {confessionSchedule ? confessionSchedule : "To be added"}
+          </p>
+        </div>
+
+        {/* Office Hours Group (Optional) */}
+        <div class="schedule-group">
+          <div class="schedule-badge">Parish Office</div>
+          <p class={officeHours ? "schedule-value" : "placeholder-text"}>
+            {officeHours ? officeHours : "To be added"}
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -95,6 +170,12 @@ const { name, img, priest, address, contact, fbLink } = Astro.props;
     padding: 3rem;
   }
 
+  .placeholder-text {
+    font-style: italic;
+    opacity: 0.7; 
+    font-size: 1.05rem;
+  }
+
   .parish-name {
     font-family: 'Playfair Display', serif;
     font-size: clamp(1.8rem, 4vw, 2.8rem);
@@ -113,7 +194,7 @@ const { name, img, priest, address, contact, fbLink } = Astro.props;
   .info-grid {
     display: grid;
     grid-template-columns: 1fr 1fr; 
-    gap: 2rem; 
+    gap: 3rem; 
     margin-bottom: 3rem;
     border-bottom: 1px solid var(--sl-color-gray-5);
     padding-bottom: 2rem;
@@ -131,7 +212,7 @@ const { name, img, priest, address, contact, fbLink } = Astro.props;
     margin: 0;
     padding: 0;
     gap: 2rem;
-    height: 100%;
+    height: auto;
   }
 
   .info-item:first-child {
@@ -150,7 +231,7 @@ const { name, img, priest, address, contact, fbLink } = Astro.props;
 
   .label {
     display: block;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 0.15em;
     color: #d4af37;
@@ -182,7 +263,8 @@ const { name, img, priest, address, contact, fbLink } = Astro.props;
 
   /* Text Area */
   .narrative-section h3 {
-    font-family: 'Playfair Display', serif;
+    border-left: 4px solid #d4af37; 
+    padding-left: 1rem;
     color: var(--sl-color-white);
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -194,9 +276,114 @@ const { name, img, priest, address, contact, fbLink } = Astro.props;
     text-align: justify;
   }
 
-  @media (max-width: 768px) {
-    .hero-image-wrapper { aspect-ratio: 16 / 9; }
-    .info-grid { grid-template-columns: 1fr; }
-    .profile-body { padding: 1.5rem; }
+  .schedule-section {
+    margin-top: 3rem;
   }
+
+  .schedule-divider {
+    height: 1px;
+    background: var(--sl-color-gray-5);
+    margin-bottom: 2rem;
+  }
+
+  .schedule-header {
+    border-left: 4px solid #d4af37; 
+    padding-left: 1rem;
+    margin-bottom: 2.5rem !important;
+  }
+
+  .schedule-header h3 {
+    letter-spacing: 0.05em;
+    font-size: 1.5rem;
+    color: var(--sl-color-white);
+  }
+
+  .schedule-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .schedule-group {
+    flex: 1;
+    margin-top: 0 !important;
+    min-width: 250px;
+    max-width: 50%; 
+  }
+
+  .sunday-group {
+    flex: 1;
+    min-width: 250px;
+    max-width: 50%; 
+  }
+
+  .sunday-columns-wrapper {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-self: flex-start;
+  }
+
+  .sunday-columns-wrapper .column {
+    flex: 0 1 auto;
+    margin: 0;
+    padding: 0;
+    min-width: 10%;
+  }
+
+  .column-divider {
+    width: 1px;
+    background-color: var(--sl-color-gray-5);
+    align-self: stretch; 
+    margin: 0.5rem 0;
+  }
+
+  .schedule-badge {
+  color:#d4af37;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+  box-shadow: 0 0px 10px rgba(0,0,0,0);
+}
+
+.schedule-value {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--sl-color-gray-3);
+  white-space: pre-line;
+}
+
+.map-wrapper {
+    margin-top: 1rem;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--sl-color-gray-5);
+    filter: grayscale(0.5) contrast(1.1); /* Optional: matches a darker theme better */
+    transition: filter 0.3s ease;
+}
+
+.map-wrapper:hover {
+    filter: grayscale(0);
+}
+
+.map-wrapper iframe {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .hero-image-wrapper { aspect-ratio: 16 / 9; }
+    .info-grid { grid-template-columns: 1fr; gap: 2rem; }
+    .profile-body { padding: 1.5rem; }
+    .schedule-container { flex-direction: column; }
+    .schedule-group { width: 100%; }
+    .map-wrapper { height: 180px; }
+    .column-divider {display: none;}
+    .sunday-columns-wrapper {flex-direction: column; gap: 1rem;}
+
+  }
+
 </style>

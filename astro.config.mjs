@@ -15,10 +15,6 @@ export default defineConfig({
 					link: "/",
 				},
 				{
-					label: 'Community',
-					autogenerate: { directory: 'community' },
-				},
-				{
 					label: 'Faith',
 					autogenerate: { directory: 'faith' },
 				},
@@ -131,7 +127,7 @@ export default defineConfig({
 								{ label: 'San Vicente Ferrer Mission Station', slug: 'missions/stations/san-vicente-ferrer' },
 								{ label: 'Señor Sta. Cruz Mission Station - Santulan', slug: 'missions/stations/señor-sta-cruz-santulan' },
 								{ label: 'Sto. Niño Potrero Chapel Mission Station', slug: 'missions/stations/sto-niño-potrero' },
-								{ label: 'San Vicente Ferrer Mission Station', slug: 'missions/stations/two-hearts-of-jesus-and-mary' },
+								{ label: 'Two Hearts of Jesus & Mary Chapel – DM Mission Station', slug: 'missions/stations/two-hearts-of-jesus-and-mary' },
 								
 							],
 
