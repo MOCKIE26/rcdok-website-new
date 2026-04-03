@@ -31,11 +31,11 @@ export const collections = {
   docs: defineCollection({
     loader: docsLoader(),
     schema: docsSchema({
-      extend: () =>
+      extend: ({ image }) =>
         z.object({
           author: z.string().optional(),
           publishDate: z.coerce.date().optional(),
-          coverImage: z.string().optional(),
+          coverImage: image().optional(),
         }),
     }),
   }),
