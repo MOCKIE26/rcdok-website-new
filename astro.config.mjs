@@ -99,10 +99,6 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Ministries',
-					autogenerate: { directory: 'reference' },
-				},
-				{
 					label: 'Missions',
 					items: [
 						{ 
